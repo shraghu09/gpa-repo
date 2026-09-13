@@ -1,8 +1,0 @@
-name: github action
-on: workflow_dispatch
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name  : Checkout repository
-        run: echo "HI"       
