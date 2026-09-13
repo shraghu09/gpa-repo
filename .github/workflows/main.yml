@@ -19,7 +19,7 @@ jobs:
 
       - name: Sync files to S3
         run: |
-          aws s3 sync ./dist s3://amzntesttolearn \
+          aws s3 sync . s3://amzntesttolearn \
             --exclude "*" \
             --include "*.html" \
             --include "*.css"
