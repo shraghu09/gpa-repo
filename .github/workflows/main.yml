@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name  : Checkout repository
-        run: echo "HI"       
+        run: echo "HI"  ${{vars.Myname}}     
